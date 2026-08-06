@@ -1,0 +1,21 @@
+# Auto-detect text files and use LF line endings where possible
+* text=auto eol=lf
+
+# Explicit binary file types (don't diff / don't auto-normalize)
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.pth  binary
+*.pt   binary
+*.ckpt binary
+*.bin  binary
+*.xlsx binary
+*.zip  binary
+*.tar  binary
+*.gz   binary
+
+# Ensure Markdown and YAML use UTF-8 friendly behavior
+*.md   text diff=markdown
+*.yaml text
+*.yml  text
+*.py   text

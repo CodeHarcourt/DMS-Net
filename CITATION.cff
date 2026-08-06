@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "DMS-Net: Dual-Modality Eye Disease Screening Network"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "DMS-Net"
+    given-names: "Contributors"
+repository-code: "https://github.com/CodeHarcourt/DMS-Net"
+license: MIT
+version: 1.0.0
+date-released: "2026-08-06"
+keywords:
+  - "deep-learning"
+  - "pytorch"
+  - "fundus-image"
+  - "multi-label-classification"
+  - "eye-disease"

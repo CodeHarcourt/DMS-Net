@@ -1,0 +1,85 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch checkpoints and model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Datasets (keep placeholders via .gitkeep)
+data/raw/*
+data/processed/*
+data/*.csv
+Training_Dataset/
+NEW_dataset_cutmix_light_1/
+
+# Generated outputs
+outputs/predictions/*
+outputs/visualizations/*
+*.png
+*.jpg
+*.jpeg
+
+# Logs and dumps
+*.log
+output.txt
+*.out
+*.dump
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Claude / IDE local settings
+.claude/
+
+# Preserve empty folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/visualizations/.gitkeep
+!checkpoints/.gitkeep
