@@ -4,7 +4,6 @@ from torchvision import transforms, models
 from PIL import Image
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import pandas as pd
 import os
 import sys
